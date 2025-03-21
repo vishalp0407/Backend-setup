@@ -4,13 +4,14 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "start":"node server/main.js",
-    "server":"nodemon server/main.js"
+    "start": "node server/main.js",
+    "server": "nodemon server/main.js"
   },
   "author": "Vishal Prajapati",
   "license": "UNLICENCED",
   "description": "",
   "dependencies": {
+    "dotenv": "^16.4.7",
     "express": "^4.21.2"
   },
   "devDependencies": {
