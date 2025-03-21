@@ -4,12 +4,17 @@
   "main": "main.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start":"node server/main.js",
+    "server":"nodemon server/main.js"
   },
   "author": "Vishal Prajapati",
   "license": "UNLICENCED",
   "description": "",
   "dependencies": {
     "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2",
+    "nodemon": "^3.1.9"
   }
 }
